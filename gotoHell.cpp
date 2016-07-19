@@ -1,9 +1,9 @@
 #include <iostream>
+#include "dead.h"
 
 int main () {
-    bool died = true;
 
-    if (died)
+    if (YouAre::dead)
         goto hell; // Or paradise, think about it ! ( if (God::exist() == true) ) héhé ;)
 
     hell:
