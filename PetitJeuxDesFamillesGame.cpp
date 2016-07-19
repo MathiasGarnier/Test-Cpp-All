@@ -3,6 +3,7 @@
 //
 
 #include "Game.h"
+
 namespace Game {
     static unsigned int playerLife = PetitJeuxDesFamilles::MAX_LIFE;
     unsigned int enemyLife = PetitJeuxDesFamilles::MAX_LIFE;
