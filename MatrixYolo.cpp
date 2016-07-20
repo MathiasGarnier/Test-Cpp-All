@@ -1,16 +1,16 @@
 #include <iostream>
 
-class Matrix {
+class yoloStruct {
     //TODO
 };
 
-int genMatrix(int n, int m);       //n -> colonnes, m -> lignes.
+int genYoloStruct(int n, int m);       //n -> colonnes, m -> lignes.
 
 int main () {
-    std::cout << genMatrix(5, 6);
+    std::cout << genYoloStruct(5, 6);
 }
 
-int genMatrix(int n, int m) {
+int genYoloStruct(int n, int m) {
 
     int value[n][m][n * m];
     for (int i = 0; i < n; i++) {
