@@ -3,7 +3,7 @@
 #include <array>
 
 
-int yoloRandomGeneration(int n, int m);       //n -> colonnes, m -> lignes.
+int yoloRandomGeneration(int n, int m);
 
 int main () {
     
