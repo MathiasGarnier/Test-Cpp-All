@@ -6,8 +6,8 @@
 int yoloRandomGeneration(int n, int m);       //n -> colonnes, m -> lignes.
 
 int main () {
+    
     std::cout << yoloRandomGeneration(9, 9);
-
 }
 
 int yoloRandomGeneration(int n, int m) {
