@@ -5,7 +5,7 @@ int main () {
 
     int s[randomize()];
     std::cout << s[0];
-    //Rebuild and rerun the program few times.
+    //Rebuild and rerun the program many times.
     
 }
 
