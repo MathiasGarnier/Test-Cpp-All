@@ -4,15 +4,17 @@
 
 int main() {
 
-    int first, second, result;
-    char signe;
-    
-    //You can make 66*66 ^^' ;)
-    
+    int     first   =   0;
+    int     second  =   0;
+    int     result  =   0;
+    char    signe   =  '';
+
     scanf("%d", &first);
     scanf("%c", &signe);
     scanf("%d", &second);
 
+    //You can make 66*66
+    
     switch (signe) {
 
     case '+':
