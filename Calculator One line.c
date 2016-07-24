@@ -7,7 +7,7 @@ int main() {
     int     first   =   0;
     int     second  =   0;
     int     result  =   0;
-    char    signe   =  '';
+    char    signe;
 
     scanf("%d", &first);
     scanf("%c", &signe);
