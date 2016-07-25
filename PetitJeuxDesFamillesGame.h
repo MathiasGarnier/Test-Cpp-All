@@ -15,7 +15,7 @@ void defense(std::string defenseName); //defenseName -> PetitJeuxDesFamilles::De
 class PetitJeuxDesFamilles {
 
     public:
-        static constexpr const char*  GAME_NAME = "PetitJeuxDesFamilles";
+        static constexpr char*  GAME_NAME = "PetitJeuxDesFamilles";
         constexpr static unsigned int MAX_ENERGIE = 80;
         constexpr static unsigned int MAX_LIFE = 100;
         constexpr static unsigned int MIN_LIFE = 0;
@@ -23,20 +23,20 @@ class PetitJeuxDesFamilles {
     class Attaques {
 
         public:
-            static constexpr const char* ATTACK_NAME_qdf = "Queue de fer - 35 pv de degats, utilisation de 40 energies.";
-            static constexpr const char* ATTACK_NAME_l = "Lechouille - 30 pv de degats, utilisation de 20 energies.";
-            static constexpr const char* ATTACK_NAME_lcal = "La chatte a l'air - 25 pv de degats, utilisation de 10 energies.";
-            static constexpr const char* ATTACK_NAME_tltlcalv = "Toucher la, Toucher la chatte a la voisine - 30 pv de degats, utilisation de 20 energies.";
+            static constexpr  char* ATTACK_NAME_qdf = "Queue de fer - 35 pv de degats, utilisation de 40 energies.";
+            static constexpr char* ATTACK_NAME_l = "Lechouille - 30 pv de degats, utilisation de 20 energies.";
+            static constexpr char* ATTACK_NAME_lcal = "La chatte a l'air - 25 pv de degats, utilisation de 10 energies.";
+            static constexpr char* ATTACK_NAME_tltlcalv = "Toucher la, Toucher la chatte a la voisine - 30 pv de degats, utilisation de 20 energies.";
 
     };
 
     class Defense {
 
     public:
-        static constexpr const char* DEFENSE_NAME_c = "Carabistouille - 10 pv ajoute, utilisation de 30 energies.";
-        static constexpr const char* DEFENSE_NAME_is = "Infirmiere sexy - 15 pv ajoute, utilisation de 35 energies.";
-        static constexpr const char* DEFENSE_NAME_hc = "Hallucination collective - 20 pv ajoute, utilisation de 40 energies.";
-        static constexpr const char* DEFENSE_NAME_fhritp = "Fuck her right in the pussy - 15 pv ajoute, utilisation de 35 energies.";
+        static constexpr char* DEFENSE_NAME_c = "Carabistouille - 10 pv ajoute, utilisation de 30 energies.";
+        static constexpr char* DEFENSE_NAME_is = "Infirmiere sexy - 15 pv ajoute, utilisation de 35 energies.";
+        static constexpr char* DEFENSE_NAME_hc = "Hallucination collective - 20 pv ajoute, utilisation de 40 energies.";
+        static constexpr char* DEFENSE_NAME_fhritp = "Fuck her right in the pussy - 15 pv ajoute, utilisation de 35 energies.";
 
     };
 };
