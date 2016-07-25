@@ -16,9 +16,9 @@ class PetitJeuxDesFamilles {
 
     public:
         static constexpr char*  GAME_NAME = "PetitJeuxDesFamilles";
-        constexpr static unsigned int MAX_ENERGIE = 80;
-        constexpr static unsigned int MAX_LIFE = 100;
-        constexpr static unsigned int MIN_LIFE = 0;
+        static constexpr unsigned int MAX_ENERGIE = 80;
+        static constexpr unsigned int MAX_LIFE = 100;
+        static constexpr unsigned int MIN_LIFE = 0;
 
     class Attaques {
 
