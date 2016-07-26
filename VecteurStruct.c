@@ -3,16 +3,14 @@
 
 typedef struct      Vecteur Vecteur;
 
-struct Vecteur
-{
+struct Vecteur {
 
     double          longueur;           /* En cm.                                                           */
     char            sens[2];            /* Exemple : sens[0] = 'A'; sens[1] = 'B'. Donc : vecteur AB.       */
     char            direction[2];       /* Nom de la droit exempe : direction AB #ConfusMaisBonHuhu         */
 };
 
-int main()
-{
+int main() {
 
     Vecteur                   v;
 
