@@ -5,9 +5,9 @@ typedef struct      Vector Vector;
 
 struct Vector {
 
-    double          length;             /* In centimeter.                                                   */
-    char            way[2];             /* Example : sens[0] = 'A'; sens[1] = 'B'. So : vector(AB)  .       */
-    char            direction[2];       /* Name of the line example : direction AB #Huhu                    */
+    double                length;             /* In centimeter.                                                   */
+    char                  way[2];             /* Example : sens[0] = 'A'; sens[1] = 'B'. So : vector(AB)  .       */
+    char            direction[2];             /* Name of the line example : direction AB #Huhu                    */
 };
 
 void vectorCompare(Vector v1, Vector v2);
