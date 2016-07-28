@@ -46,19 +46,6 @@ int main() {
 
     vectorCompare(v, v1);
 
-    /* Result :
-                  A |--------> B
-                C /
-                |
-                |
-                |
-                |
-                |
-                |
-                |
-                >D
-    */
-
     //YOLO PATE A L'EAU
     return 0;
 }
