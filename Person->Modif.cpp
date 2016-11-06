@@ -1,17 +1,19 @@
 #include <iostream>
 
-struct Person {
+namespace Lambda {
 
-    std::string name;
-    std::string surname;
-};
+    struct Person {
 
-std::string getName(Person *lp);
-std::string setName(Person *lp, std::string nName, std::string nSurname);
+        std::string name;
+        std::string surname;
+    };
+}
+std::string getName(Lambda::Person *lp);
+std::string setName(Lambda::Person *lp, std::string nName, std::string nSurname);
 
 int main() {
 
-    Person lp;
+    Lambda::Person lp;
 
     lp.name = "Jean";
     lp.surname = "Marc";
@@ -23,7 +25,7 @@ int main() {
     return 0;
 }
 
-std::string getName(Person *lp) {
+std::string getName(Lambda::Person *lp) {
 
     std::string globalName;
 
@@ -36,7 +38,7 @@ std::string getName(Person *lp) {
     return globalName;
 }
 
-std::string setName(Person *lp, std::string nName, std::string nSurname) {
+std::string setName(Lambda::Person *lp, std::string nName, std::string nSurname) {
 
     std::string nGlobalName(nName + " " + nSurname);
 
