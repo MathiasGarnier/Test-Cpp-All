@@ -17,7 +17,7 @@ template <typename Type1, typename Type2>
 		bool areEquals(element1 == element2);
 
 		std::cout << std::boolalpha << "(" << element1 << " == " << element2 << ") => " << areEquals;
-		return element1 == element2;
+		return areEquals;
 	}
 }
 
