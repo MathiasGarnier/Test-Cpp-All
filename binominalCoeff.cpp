@@ -16,7 +16,7 @@ int main() {
 
 	std::cout << std::endl << "k >> ";
 	std::cin >> k;
-		
+	
 	std::cout << std::endl << "(n k) = " << binominalCoeff(n, k);
 	
 	return 0;
@@ -24,6 +24,9 @@ int main() {
 
 std::size_t binominalCoeff(std::size_t n, std::size_t k) {
 
+	/*
+	 Because I use 'std::size_t' type, max = 0xFFFFFFFFUL
+	 */
 	if (k > n) return 0;
 	else return fact(n) / (fact(k) * fact(n - k));
 }
