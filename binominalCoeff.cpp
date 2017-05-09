@@ -3,7 +3,7 @@
 //Compile it as > g++ filename.cpp -option1 -option2 -std=c++11 -o main.exe
 //By exemple > g++ binominalCoeff.cpp -Wall -std=c++11 -o main.exe
 
-std::size_t binominalCoeff(std::size_t n, std::size_t k);
+std::size_t binomialCoeff(std::size_t n, std::size_t k);
 std::size_t fact(std::size_t x);
 
 int main() {
@@ -17,12 +17,12 @@ int main() {
 	std::cout << std::endl << "k >> ";
 	std::cin >> k;
 	
-	std::cout << std::endl << "(n k) = " << binominalCoeff(n, k);
+	std::cout << std::endl << "(n k) = " << binomialCoeff(n, k);
 	
 	return 0;
 }
 
-std::size_t binominalCoeff(std::size_t n, std::size_t k) {
+std::size_t binomialCoeff(std::size_t n, std::size_t k) {
 
 	
 	// Because I use 'std::size_t' type, max = 0xFFFFFFFFUL
