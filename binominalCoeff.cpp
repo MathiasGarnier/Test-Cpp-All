@@ -1,5 +1,8 @@
 #include <iostream>
 
+//Compile it as > g++ filename.cpp -option1 -option2 -std=c++11 -o main.exe
+//By exemple > g++ binominalCoeff.cpp -Wall -std=c++11 -o main.exe
+
 std::size_t binominalCoeff(std::size_t n, std::size_t k);
 std::size_t fact(std::size_t x);
 
