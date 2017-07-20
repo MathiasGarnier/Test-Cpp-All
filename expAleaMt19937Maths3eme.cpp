@@ -23,7 +23,7 @@ int main() {
 
     std::mt19937 rng;
     rng.seed(std::random_device()());
-    std::uniform_int_distribution<std::mt19937::result_type> dist6(1, 4);
+    std::uniform_int_distribution<std::mt19937::result_type> dist4(1, 4);
 
 	std::size_t randomNumber;
 
@@ -34,7 +34,7 @@ int main() {
 	//On remplit l'urne
 	for (int i = 0; i < NB_BOULE; ++i) {
 
-		randomNumber = dist6(rng);
+		randomNumber = dist4(rng);
 
 		urne.push_back(b[randomNumber]);
 	}    
