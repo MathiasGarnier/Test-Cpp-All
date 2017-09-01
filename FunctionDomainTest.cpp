@@ -12,8 +12,8 @@ class Domain {
 	public:
 
         Domain(T _domainValue) : domainValue(_domainValue) { std::cout << "Domain ctor" << std::endl; } 
-		T getDomainValue() { return domainValue; }
-		const std::string getDomain() { return typeid(domainValue).name(); }
+	T getDomainValue() { return domainValue; }
+	const std::string getDomain() { return typeid(domainValue).name(); }
 };
 
 using Natural = std::size_t;
@@ -22,7 +22,7 @@ using Rational = long double;
 template<typename Type>
 auto MyAlgebraicFunction(Type x) -> Natural {
  
- 	assert((std::is_same<Type, Natural>::value));
+    assert((std::is_same<Type, Natural>::value));
 
     return x; //Injective, surjective and bijective
 }
@@ -41,5 +41,5 @@ int main() {
     MyAlgebraicFunction(nope); //Program will abort
 
 
-	return 0;
+    return 0;
 }
