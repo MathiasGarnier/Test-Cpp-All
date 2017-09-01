@@ -7,14 +7,14 @@ class Domain {
 
 	private:
 
-		T domainValue;
+	    T domainValue;
 
 	public:
 
-        Domain(T _domainValue) : domainValue(_domainValue) { std::cout << "Domain ctor" << std::endl; } 
-	T getDomainValue() { return domainValue; }
-	const std::string getDomain() { return typeid(domainValue).name(); }
-};
+            Domain(T _domainValue) : domainValue(_domainValue) { std::cout << "Domain ctor" << std::endl; } 
+	    T getDomainValue() { return domainValue; }
+	    const std::string getDomain() { return typeid(domainValue).name(); }
+};	
 
 using Natural = std::size_t;
 using Rational = long double;
