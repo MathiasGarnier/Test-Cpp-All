@@ -32,10 +32,10 @@ int main() {
     Natural x = 545;
     Rational nope = 3.1415F;
 
-    Domain<Natural> intDomain(x);
+    Domain<Natural> naturalDomain(x);
     
-    std::cout << intDomain.getDomainValue() << std::endl;
-    std::cout << intDomain.getDomain() << std::endl << std::endl;
+    std::cout << naturalDomain.getDomainValue() << std::endl;
+    std::cout << naturalDomain.getDomain() << std::endl << std::endl;
 
     MyAlgebraicFunction(x);
     MyAlgebraicFunction(nope); //Program will abort
